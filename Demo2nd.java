@@ -18,7 +18,7 @@ public class Demo2nd
 {
 public static void main(String ar[]){
 Demo d1=new Demo();
-Demo2 d2=new Demo2();
+
 Thread t1=new Thread(d1,"hi");
 Thread t2=new Thread(d2,"bye");
 t1.start();
